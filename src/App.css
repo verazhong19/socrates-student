@@ -49,16 +49,35 @@
   color: white;
 
 }
+.button{
+  background-color: #D4C3EC; 
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 3px;
+  transition-duration: 0.5s;
+}
 
-.App-link {
+.plus{
+  background-color: white; 
+  color: plum; 
+  border: 3px solid plum;
+  border-radius: 10px
+}
+
+.plus:hover{
+  background-color: plum;
+  color: white;
+}
+  .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(720deg);
-  }
+input{
+  width: 25vw;
+  height: 5vh;
+  margin-bottom: 10px;
+  font-size: 30px;
 }

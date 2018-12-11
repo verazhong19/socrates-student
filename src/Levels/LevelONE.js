@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../App.css';
+
 
 class LevelTWO extends Component {
     constructor(props){
@@ -25,14 +27,18 @@ class LevelTWO extends Component {
         return (  
            
               <div className='content'>
-              <h1>Student Portal</h1>
-                <label> Submit your Questions!
-                <br></br>
+                <div>
+                  <h1>Student Portal</h1>
+                </div>
+                <div>
+                  <h3>Submit your Questions!</h3>
+                </div>
+                <div>
                 <input type="text" onChange={this.setData}></input>
-                <br></br>
-                </label>
-                <button onClick={this.submitData}>Submit!</button>
-                
+                </div>
+                <div>
+                <button className='button plus' onClick={this.submitData}>Submit!</button>
+                </div>
               </div>  
         );
     }
